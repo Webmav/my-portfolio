@@ -12,7 +12,7 @@ export default function Navbar() {
             <NavLink 
                 className={LinkClass}
                 to="/">
-                <h1> Logo </h1>
+                <h1> Munawar Ali </h1>
             </NavLink>
 
             <ul className="flex gap-5">
@@ -24,14 +24,20 @@ export default function Navbar() {
 
                 <NavLink 
                     className={LinkClass}
-                    to="/projects">
-                    <li>Projects</li>
+                    to="/about">
+                    <li>About</li>
                 </NavLink>
 
                 <NavLink 
                     className={LinkClass}
-                    to="/about">
-                    <li>About</li>
+                    to="/services">
+                    <li>Services</li>
+                </NavLink>
+
+                <NavLink 
+                    className={LinkClass}
+                    to="/projects">
+                    <li>Projects</li>
                 </NavLink>
 
                 <NavLink 
@@ -43,7 +49,7 @@ export default function Navbar() {
 
             <NavLink
                 to="/">
-                <button>Hi</button>
+                <button>Button</button>
             </NavLink>
         </nav>
     )

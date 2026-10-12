@@ -1,1 +1,60 @@
 @import 'tailwindcss';
+
+--------------------------
+
+:root {
+    --clr-primary-400: rgb(255, 204, 0);
+    
+    --clr-accent-400: rgb(0, 0, 200);
+    --clr-accent-600: rgb(0, 0, 125);
+    --clr-accent-800: rgb(0, 0, 65);
+
+    --clr-neutral-100: rgb(255, 255, 255);
+    --clr-neutral-900: rgb(0, 0, 0);
+
+    --clr-nav: var(--clr-accent-400);
+    --clr-footer: var(--clr-accent-400);
+    --clr-footer-copyright: var(--clr-accent-800);
+    --clr-button: var(--clr-accent-600);
+}
+
+--------------------------
+
+/* General */
+
+nav {
+    background-color: var(--clr-nav);
+}
+
+footer {
+    background-color: var(--clr-footer);
+}
+
+footer#copyright {
+    background-color: var(--clr-footer-copyright);
+}
+
+--------------------------
+
+/* utility-classes */
+
+.bg-primary-400 {
+    background-color: var(--clr-primary-400);
+}
+
+.bg-accent-400 {
+    background-color: var(--clr-accent-400);
+}
+.bg-accent-600 {
+    background-color: var(--clr-accent-600);
+}
+.bg-accent-800 {
+    background-color: var(--clr-accent-800);
+}
+
+.bg-neutral-100 {
+    background-color: var(--clr-neutral-100);
+}
+.bg-neutral-900 {
+    background-color: var(--clr-neutral-900);
+}
