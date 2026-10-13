@@ -1,6 +1,6 @@
 @import 'tailwindcss';
 
---------------------------
+/* -------------------------- */
 
 :root {
     --clr-primary-400: rgb(255, 204, 0);
@@ -8,23 +8,65 @@
     --clr-accent-400: rgb(0, 0, 200);
     --clr-accent-600: rgb(0, 0, 125);
     --clr-accent-800: rgb(0, 0, 65);
-
+    
     --clr-neutral-100: rgb(255, 255, 255);
     --clr-neutral-900: rgb(0, 0, 0);
-
+    
     --clr-nav: var(--clr-accent-400);
     --clr-footer: var(--clr-accent-400);
     --clr-footer-copyright: var(--clr-accent-800);
     --clr-button: var(--clr-accent-600);
-}
+} 
 
---------------------------
+/* -------------------------- */
+
+/* 
+
+Text sizes
+------
+
+70
+40
+24
+15
+21
+17
+15
+14
+13
+10
+
+30
+17
+16.67
+16
+14
+13
+12.5
+11.33
+10.5
+10
+8.67
+6.5
+5
+
+*/
+
+/* -------------------------- */
 
 /* General */
+
+body {
+    color: var(--clr-primary-400);
+}
 
 nav {
     background-color: var(--clr-nav);
 }
+
+/* button {
+    background-color: var(--clr-button);
+} */
 
 footer {
     background-color: var(--clr-footer);
@@ -34,12 +76,13 @@ footer#copyright {
     background-color: var(--clr-footer-copyright);
 }
 
---------------------------
+/* -------------------------- */
 
 /* utility-classes */
 
+
 .bg-primary-400 {
-    background-color: var(--clr-primary-400);
+    color: var(--clr-primary-400);
 }
 
 .bg-accent-400 {
@@ -57,4 +100,24 @@ footer#copyright {
 }
 .bg-neutral-900 {
     background-color: var(--clr-neutral-900);
+} 
+
+
+
+
+
+
+
+
+
+
+nav ul {
+    gap: clamp(.001rem, 3vw, 15rem);
+}
+
+@media (max-width: 59em) {
+    nav ul,
+    nav button {
+        display: none;
+    }
 }

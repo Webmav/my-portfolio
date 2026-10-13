@@ -8,14 +8,16 @@ export default function Navbar() {
     }
 
     return(
-        <nav className='flex justify-between mx-auto px-10 py-3 bg-indigo-100'>
+        <nav className='flex justify-between mx-auto pl-[65px] py-[35px] bg-indigo-100'>
             <NavLink 
                 className={LinkClass}
                 to="/">
-                <h1> Munawar Ali </h1>
+                <svg className="icon" height={'30px'} width={'210px'}>
+                    <use xlinkHref="./src/assets/img/logo.svg#logo"></use>
+                </svg>
             </NavLink>
 
-            <ul className="flex gap-5">
+            <ul className="flex">
                 <NavLink 
                     className={LinkClass}
                     to="/">
@@ -49,7 +51,7 @@ export default function Navbar() {
 
             <NavLink
                 to="/">
-                <button>Button</button>
+                <button className='mbs-[-5px] mr-[138px] border border-black rounded-[100vw] hover:px-[20px] px-[40px] py-[10.25px] bg-accent-800 hover:bg-accent-400'>Button</button>
             </NavLink>
         </nav>
     )

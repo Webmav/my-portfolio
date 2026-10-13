@@ -1,7 +1,7 @@
 export default function FooterCopyright() {
     return(
-        <>
-            <h1>Munawar Ali. All rights reserved, Inc</h1>
-        </>
+        <footer id="copyright" className="flex justify-center items-center min-h-[50px]">
+            <h1 className="text-[15px] text-white">Munawar Ali. All rights reserved, Inc</h1>
+        </footer>
     )
 }

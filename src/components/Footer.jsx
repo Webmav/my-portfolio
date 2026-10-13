@@ -10,47 +10,50 @@ export default function Footer() {
     }
 
     return(
-        <footer>
-            <h1>Munawar Ali</h1>
+        <>
+            <footer className='flex flex-col min-h-[313px] items-center justify-center gap-[25px]'>
 
-            <ul className="flex gap-5">
-                <NavLink 
-                    className={LinkClass}
-                    to="/">
-                    <li>Home</li>
+                <NavLink
+                    to='/'>
+                    <svg className="icon">
+                        <use xlinkHref="./src/assets/img/logo.svg#logo"></use>
+                    </svg>
                 </NavLink>
 
-                <NavLink 
-                    className={LinkClass}
-                    to="/about">
-                    <li>About</li>
-                </NavLink>
+                <ul className="flex gap-5">
+                    <NavLink 
+                        to="/">
+                        <li>Home</li>
+                    </NavLink>
 
-                <NavLink 
-                    className={LinkClass}
-                    to="/services">
-                    <li>Services</li>
-                </NavLink>
+                    <NavLink 
+                        to="/about">
+                        <li>About</li>
+                    </NavLink>
 
-                <NavLink 
-                    className={LinkClass}
-                    to="/projects">
-                    <li>Projects</li>
-                </NavLink>
+                    <NavLink 
+                        to="/services">
+                        <li>Services</li>
+                    </NavLink>
 
-                <NavLink 
-                    className={LinkClass}
-                    to="/contact">
-                    <li>Contact</li>
-                </NavLink>
-            </ul>
+                    <NavLink 
+                        to="/projects">
+                        <li>Projects</li>
+                    </NavLink>
 
-            <img src="/#" alt="" />
-            <img src="/#" alt="" />
-            <img src="/#" alt="" />
-            <img src="/#" alt="" />
+                    <NavLink 
+                        to="/contact">
+                        <li>Contact</li>
+                    </NavLink>
+                </ul>
 
+                <img src="/#" alt="" />
+                <img src="/#" alt="" />
+                <img src="/#" alt="" />
+                <img src="/#" alt="" />
+
+            </footer>
             <FooterCopyright />
-        </footer>
+        </>
     )
 }
