@@ -14,7 +14,7 @@ export default function Navbar() {
                 to="/"> 
                 <svg className="icon | w-[95px] md:w-[207px] h-[15px] md:h-[30px] mbs-[1px] mbe-[-11px] md:py-[5px] ">
                     <use 
-                        xlinkHref="./src/assets/img/logo.svg#logo"
+                        xlinkHref="src/assets/img/logo.svg#logo"
                         className='w-[95px] md:w-[207px] h-[15px] md:h-[30px]'></use>
                 </svg>
             </NavLink>

@@ -7,8 +7,8 @@ import Services from "../components/Services";
 export default function HomePage() {
     return(
         <>
-            {/* <h1>Home</h1>
             <Hero />
+            {/*
             <AboutMe />
             <Projects />
             <Services />

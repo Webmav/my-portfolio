@@ -1,8 +1,14 @@
 @import 'tailwindcss';
 
+
+
+
+
 /* -------------------------- */
 
 :root {
+    --ff-primary: 'Alatsi', sans-serif;
+
     --clr-primary-50: rgb(255, 244, 200);
     --clr-primary-400: rgb(255, 204, 0);
     
@@ -13,6 +19,23 @@
     
     --clr-neutral-100: rgb(255, 255, 255);
     --clr-neutral-900: rgb(0, 0, 0);
+
+    --fs-100: ;
+    --fs-200: ;
+    --fs-300: ;
+    --fs-400: 1rem;
+    --fs-450: 1rem;
+    --fs-500: 1.5rem;
+    --fs-550: 1rem;
+    --fs-575: 1.875rem;
+    --fs-600: 2rem;
+    --fs-700: 2.5rem;
+    --fs-800: 3rem;
+    --fs-900: 4.375rem;
+
+    --fs-hero: var(--fs-400);
+    --fs-md-hero: var(--fs-500);
+
     
     --clr-nav: var(--clr-accent-400);
     --clr-footer: var(--clr-accent-400);
@@ -27,21 +50,13 @@
 Text sizes
 ------
 
-70
-40
-24
+17
 15
 21
 17
-15
-14
-13
-10
-
-30
-17
 16.67
-16
+
+15
 14
 13
 12.5
@@ -59,6 +74,7 @@ Text sizes
 /* General */
 
 body {
+    font-family: var(--ff-primary); 
     color: var(--clr-primary-400);
 }
 
@@ -106,6 +122,14 @@ footer#copyright {
 .bg-neutral-900 {
     background-color: var(--clr-neutral-900);
 } 
+
+.fs-hero {
+    font-size: var(--fs-hero);
+}
+
+.md\:fs-md-hero {
+    font-size: var(--fs-md-hero);
+}
 
 .hover\:text-primary-50:hover {
     color: var(--clr-primary-50);
