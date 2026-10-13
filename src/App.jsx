@@ -10,6 +10,7 @@ import AboutPage from "./pages/AboutPage";
 import ProjectPage from './pages/ProjectPage';
 import ContactPage from './pages/ContactPage';
 import NotFoundPage from "./pages/NotFoundPage";
+import Footer from './components/Footer';
 
 export default function App() {
   return(
@@ -24,6 +25,8 @@ export default function App() {
 
               <Route path="*" element={<NotFoundPage />}/>
           </Routes>
+
+          <Footer />
         </Router> 
   )
 }
