@@ -8,12 +8,14 @@ export default function Navbar() {
     }
 
     return(
-        <nav className='flex justify-between mx-auto pl-[65px] py-[35px] bg-indigo-100'>
+        <nav className='flex px-[22px] md:px-[65px] py-[28px] md:py-[30px] justify-between'>
             <NavLink 
                 className={LinkClass}
-                to="/">
-                <svg className="icon" height={'30px'} width={'210px'}>
-                    <use xlinkHref="./src/assets/img/logo.svg#logo"></use>
+                to="/"> 
+                <svg className="icon | w-[95px] md:w-[207px] h-[15px] md:h-[30px] mbs-[1px] mbe-[-11px] md:py-[5px] ">
+                    <use 
+                        xlinkHref="./src/assets/img/logo.svg#logo"
+                        className='w-[95px] md:w-[207px] h-[15px] md:h-[30px]'></use>
                 </svg>
             </NavLink>
 
@@ -51,7 +53,7 @@ export default function Navbar() {
 
             <NavLink
                 to="/">
-                <button className='mbs-[-5px] mr-[138px] border border-black rounded-[100vw] hover:px-[20px] px-[40px] py-[10.25px] bg-accent-800 hover:bg-accent-400'>Button</button>
+                <button className="mr-[73px] border border-black rounded-[100vw] px-[40px] py-[10.25px] bg-accent-800 hover:bg-accent-900 hover:text-primary-50">Button</button>
             </NavLink>
         </nav>
     )
