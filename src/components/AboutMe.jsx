@@ -1,6 +1,6 @@
 export default function AboutMe() {
     return(
-        <div className="grid max-md:justify-items-center py-[25px]">
+        <div className="grid max-md:justify-items-center py-[25px] md:py-[50px] ">
             <h1>About me</h1>
 
             <p className="mbs-[20px] md:mbs-[40px] ">These are some of my skills and expertise</p>
