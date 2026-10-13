@@ -11,16 +11,18 @@ export default function Footer() {
 
     return(
         <>
-            <footer className='flex flex-col min-h-[313px] items-center justify-center gap-[25px]'>
+            <footer className='flex flex-col min-h-[313px] items-center justify-center gap-[25px] md:gap-[50px]'>
 
                 <NavLink
                     to='/'>
-                    <svg className="icon">
-                        <use xlinkHref="./src/assets/img/logo.svg#logo"></use>
+                    <svg className="icon | w-[168px] h-[36px] md:w-[406px] md:h-[66px] ">
+                        <use 
+                            xlinkHref="./src/assets/img/logo.svg#logo"
+                            className='w-[168px] h-[36px] md:w-[406px] md:h-[66px]'></use>
                     </svg>
                 </NavLink>
 
-                <ul className="flex gap-5">
+                <ul className="flex gap-[10px] md:gap-[55px] max-md:flex-col max-md:items-center justify-center">
                     <NavLink 
                         to="/">
                         <li>Home</li>
@@ -47,10 +49,52 @@ export default function Footer() {
                     </NavLink>
                 </ul>
 
-                <img src="/#" alt="" />
-                <img src="/#" alt="" />
-                <img src="/#" alt="" />
-                <img src="/#" alt="" />
+                <div className='flex gap-[10px] md:gap-[15px]'>
+                    <NavLink
+                        to='/'>
+                        <svg className="icon | h-[13.33px] md:h-[20px] w-[13.33px] md:w-[20px]">
+                        <use
+                            xlinkHref="./src/assets/img/social-icons.svg#Vector-1"
+                            className='h-[13.33px] md:h-[20px] w-[13.33px] md:w-[20px]'></use>
+                        </svg>
+                    </NavLink>
+
+                    <NavLink
+                        to='/'>
+                        <svg className="icon | h-[13.33px] md:h-[20px] w-[13.33px] md:w-[20px]">
+                        <use
+                            xlinkHref="./src/assets/img/social-icons.svg#Vector-2"
+                            className='h-[13.33px] md:h-[20px] w-[13.33px] md:w-[20px]'></use>
+                        </svg>
+                    </NavLink>
+
+                    <NavLink
+                        to='/'>
+                        <svg className="icon | h-[13.33px] md:h-[20px] w-[13.33px] md:w-[20px]">
+                        <use
+                            xlinkHref="./src/assets/img/social-icons.svg#Vector-3"
+                            className='h-[13.33px] md:h-[20px] w-[13.33px] md:w-[20px]'></use>
+                        </svg>
+                    </NavLink>
+
+                    <NavLink
+                        to='/'>
+                        <svg className="icon | h-[13.33px] md:h-[20px] w-[13.33px] md:w-[20px]">
+                        <use
+                            xlinkHref="./src/assets/img/social-icons.svg#Vector-4"
+                            className='h-[13.33px] md:h-[20px] w-[13.33px] md:w-[20px]'></use>
+                        </svg>
+                    </NavLink>
+
+                    <NavLink
+                        to='/'>
+                        <svg className="icon | h-[13.33px] md:h-[20px] w-[13.33px] md:w-[20px]">
+                        <use
+                            xlinkHref="./src/assets/img/social-icons.svg#Vector"
+                            className='h-[13.33px] md:h-[20px] w-[13.33px] md:w-[20px]'></use>
+                        </svg>
+                    </NavLink>
+                </div>
 
             </footer>
             <FooterCopyright />
