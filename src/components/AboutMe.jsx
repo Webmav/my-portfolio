@@ -1,20 +1,13 @@
 export default function AboutMe() {
     return(
-        <>
+        <div className="grid max-md:justify-items-center py-[25px]">
             <h1>About me</h1>
 
-            <p>These are some of my skills and expertise</p>
+            <p className="mbs-[20px] md:mbs-[40px] ">These are some of my skills and expertise</p>
 
-            <img src="/#" alt="" />
+            <img className="max-w-[150px] max-h-[150px] md:hidden mbs-[20px] " src="src/assets/img/about-photo.png" alt="" />
 
-            <p>UX</p>
-            <img src="/#" alt="" />
-
-            <p>Web Design</p>
-            <img src="/#" alt="" />
-
-            <p>App Design</p>
-            <img src="/#" alt="" />
-        </>
+            <img className="max-w-[213px] max-h-[114px] md:hidden mbs-[36px] " src="src/assets/img/graph-thing.png" alt="" />
+        </div>
     )
 }
