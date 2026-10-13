@@ -10,8 +10,8 @@ export default function HomePage() {
             <Hero />
             <AboutMe />
             <Projects />
-            {/*
             <Services />
+            {/*
             <Contact /> */}
         </>
     )
