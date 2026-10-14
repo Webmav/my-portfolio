@@ -1,4 +1,5 @@
 import { NavLink } from 'react-router-dom';
+import { useState } from 'react';
 
 export default function Navbar() {
     const LinkClass = ({ isActive }) => {
@@ -8,7 +9,7 @@ export default function Navbar() {
     }
 
     return(
-        <nav className='flex px-[22px] md:px-[65px] py-[28px] md:py-[30px] justify-between'>
+        <nav className='flex pl-[22px] pr-[30px] md:px-[65px] pbs-[28px] pbe-[14px] md:py-[30px] justify-between'>
             <NavLink 
                 className={LinkClass}
                 to="/"> 
@@ -19,7 +20,7 @@ export default function Navbar() {
                 </svg>
             </NavLink>
 
-            <ul className="flex">
+            <ul id='menu-list' className="flex mr-[73px] ">
                 <NavLink 
                     className={LinkClass}
                     to="/">
@@ -53,8 +54,31 @@ export default function Navbar() {
 
             <NavLink
                 to="/">
-                <button className="mr-[73px] border border-black rounded-[100vw] px-[40px] py-[10.25px] bg-accent-800 hover:bg-accent-900 hover:text-primary-50">Button</button>
+                <button className=" border border-black rounded-[100vw] px-[40px] py-[10.25px] bg-accent-800 hover:bg-accent-900 hover:text-primary-50">Button</button>
             </NavLink>
+
+            <div className='md:hidden'>
+                <svg onClick={menuButton} className="icon | hidden w-[21px] h-[22px] " id='close-icon'>
+                    <use xlinkHref="src/assets/img/menu-icons.svg#close-icon"></use>
+                </svg>
+                <svg onClick={menuButton} className="icon | w-[21px] h-[22px] " id='burger-icon'>
+                    <use xlinkHref="src/assets/img/menu-icons.svg#burger-icon"></use>
+                </svg>
+            </div>
         </nav>
     )
+
+    
+    function menuButton() {
+        const menuList = document.getElementById('menu-list');
+        const burgerIcon = document.getElementById('burger-icon');
+        const closeIcon = document.getElementById('close-icon');
+
+        menuList.classList.toggle('open')
+        burgerIcon.classList.toggle('hidden')
+        closeIcon.classList.toggle('hidden')
+
+
+    }
 }
+

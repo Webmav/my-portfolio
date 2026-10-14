@@ -1,0 +1,17 @@
+<svg width="0" height="0" class="hidden">
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 21" id="close-icon">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M17.678 0L20.506 2.828L13.081 10.253L20.506 17.678L17.678 20.506L10.253 13.081L2.828 20.506L0 17.678L7.424 10.253L0 2.828L2.828 0L10.253 7.424L17.678 0Z" fill="#6986FF"></path>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 18" id="burger-icon">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H25V4H0V0ZM0 7H25V11H0V7ZM0 14H25V18H0V14Z" fill="#6986FF"></path>
+  </symbol>
+</svg>
+
+<!-- 
+<svg className="icon">
+  <use xlinkHref="#close-icon"></use>
+</svg>
+<svg className="icon">
+  <use xlinkHref="#burger-icon"></use>
+</svg>
+ -->

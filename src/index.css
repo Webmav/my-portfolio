@@ -176,6 +176,24 @@ nav ul {
 }
 
 @media (max-width: 48em) {
+    .open {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        position: absolute;
+        top: 50px;
+        right: 10px;
+
+        width: 250px;
+        height: 250px;
+        background-color: white;
+        border: 2px solid black;
+    }
+}
+
+@media (max-width: 48em) {
     #hero {
         grid-template-areas:
             'hero-photo'
