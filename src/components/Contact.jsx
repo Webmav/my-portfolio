@@ -1,7 +1,7 @@
 export default function Contact() {
     return(
         <div className="grid justify-items-center py-[25px] md:py-[50px] ">
-            <h1>Let’s Design together </h1>
+            <h1>Let's Design together </h1>
 
             <p className="mbs-[15px] md:mbs-[30px] ">Please type in your email address and click send </p>
             <p> I will get in touch within 24 hours</p>

@@ -165,3 +165,47 @@ nav ul {
         display: none;
     }
 }
+
+#hero {
+    grid-template-areas:
+        'hi md-hero-photo'
+        'hero-heading md-hero-photo'
+        'hero-para md-hero-photo'
+        'hero-para-2 social-icons'
+    ;
+}
+
+@media (max-width: 48em) {
+    #hero {
+        grid-template-areas:
+            'hero-photo'
+            'social-icons'
+            'hero-heading'
+            'hero-para'
+            'hero-para-2'
+            'md-hero-photo'
+        ;
+    }
+}
+
+#hi {
+    grid-area: hi;
+}
+#hero-photo {
+    grid-area: hero-photo;
+}
+#hero-heading {
+    grid-area: hero-heading;
+}
+#hero-para {
+    grid-area: hero-para;
+}
+#hero-hero-para-2 {
+    grid-area: hero-para-2;
+}
+#md-hero-photo {
+    grid-area: md-hero-photo;
+}
+#social-icons {
+    grid-area: social-icons;
+}
