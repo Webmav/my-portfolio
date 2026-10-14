@@ -11,8 +11,7 @@ export default function HomePage() {
             <AboutMe />
             <Projects />
             <Services />
-            {/*
-            <Contact /> */}
+            <Contact />
         </>
     )
 }

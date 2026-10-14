@@ -21,8 +21,10 @@
     --clr-neutral-900: rgb(0, 0, 0);
 
     --fs-100: ;
-    --fs-200: ;
+    --fs-200: .5rem;
+    --fs-225: .541rem;
     --fs-300: ;
+    --fs-350: .875rem;
     --fs-400: 1rem;
     --fs-450: 1rem;
     --fs-500: 1.5rem;
@@ -58,12 +60,12 @@ Text sizes
 
 15
 14
-13
+
 12.5
 11.33
 10.5
 10
-8.67
+
 6.5
 5
 
@@ -125,6 +127,13 @@ footer#copyright {
 
 .fs-hero {
     font-size: var(--fs-hero);
+}
+
+.fs-350 {
+    font-size: var(--fs-350);
+}
+.fs-225 {
+    font-size: var(--fs-225);
 }
 
 .md\:fs-md-hero {
