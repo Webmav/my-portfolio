@@ -1,4 +1,19 @@
+import { NavLink } from 'react-router-dom'
+
 export default function Projects() {
+    function ProjectArrows() {
+        const project1 = document.getElementById("project-1");
+        const project4 = document.getElementById("project-4");
+        const arrowBack = document.getElementById("arrow-back");
+        const arrowNext = document.getElementById("arrow-next");
+
+        project1.classList.toggle('max-md:hidden');
+        project4.classList.toggle('max-md:hidden');
+
+        arrowBack.classList.toggle('max-md:hidden')
+        arrowNext.classList.toggle('max-md:hidden')
+    }
+
     return(
         <div className="grid justify-items-center py-[25px] md:py-[50px] ">
             <h1 className="text-[13px] md:text-[25px] ">My Projects</h1>
@@ -12,29 +27,43 @@ export default function Projects() {
                 <button className="border border-white rounded-[100vw] bg-accent-800 py-[3.42px] md:py-[5.35px] md:px-[13.5px] px-[8.5px] text-[6.67px] md:text-[10px] hover:bg-accent-900 hover:text-primary-50 ">App Design</button>
             </div>
 
+            <div className='flex mt-[22.67px] md:mt-[33px] gap-[33px] md:gap-[60px] shrink-0'>
+                <NavLink to='/' id='project-1' className='flex flex-col'>
+                        <img src="src/assets/img/hero-photo.png" alt="" className='min-w-[150px] md:min-w-[250px] min-h-[175px] md:min-h-[300px] '/>
+                        <h3 className='text-[5px] md:text-[10px] mt-[5px] md:mt-[10px] ml-[15px] md:ml-[10px] '>Web Design</h3>
+                        <p className="self-center text-[6px] md:text-[13px] max-w-[110px] md:max-w-[230px]">This is a website about ....</p>
+                </NavLink>
+                <NavLink to='/' id='project-2' className='flex flex-col'>
+                        <img src="src/assets/img/hero-photo.png" alt="" className='min-w-[150px] md:min-w-[250px] min-h-[175px] md:min-h-[300px] '/>
+                        <h3 className='text-[5px] md:text-[10px] mt-[5px] md:mt-[10px] ml-[15px] md:ml-[10px] '>Web Design</h3>
+                        <p className="self-center text-[6px] md:text-[13px] max-w-[110px] md:max-w-[230px]">This is a website about ....</p>
+                </NavLink>
+                <NavLink to='/' id='project-3' className='flex flex-col'>
+                        <img src="src/assets/img/hero-photo.png" alt="" className='min-w-[150px] md:min-w-[250px] min-h-[175px] md:min-h-[300px] '/>
+                        <h3 className='text-[5px] md:text-[10px] mt-[5px] md:mt-[10px] ml-[15px] md:ml-[10px] '>Web Design</h3>
+                        <p className="self-center text-[6px] md:text-[13px] max-w-[110px] md:max-w-[230px]">This is a website about ....</p>
+                </NavLink>
+                <NavLink to='/' id='project-4' className='flex flex-col max-md:hidden'>
+                        <img src="" alt="" className='min-w-[150px] md:min-w-[250px] min-h-[175px] md:min-h-[300px] '/>
+                        <h3 className='text-[5px] md:text-[10px] mt-[5px] md:mt-[10px] ml-[15px] md:ml-[10px] '>Web Design</h3>
+                        <p className="self-center text-[6px] md:text-[13px] max-w-[110px] md:max-w-[230px]">This is a website about ....</p>
+                </NavLink>
 
-            {/* Scroll... */}
-            
-            {/* <div>
-                <img src="" alt="" />
-                <h3>Category</h3>
-                <p>Description of the project...</p>
+                <button 
+                    id='arrow-back'
+                    className='absolute left-[2.5px] mt-[35px] text-[75px] hover:text-[var(--clr-primary-500)] max-md:hidden md:hidden'
+                    onClick={ProjectArrows}            
+                >
+                    &#8592;
+                </button>
+                <button 
+                    id='arrow-next'
+                    className='absolute right-[2.5px] mt-[35px] text-[75px] hover:text-[var(--clr-primary-500)] md:hidden'
+                    onClick={ProjectArrows}                    
+                >
+                    &#8594;
+                </button>
             </div>
-            <div>
-                <img src="" alt="" />
-                <h3>Category</h3>
-                <p>Description of the project...</p>
-            </div>
-            <div>
-                <img src="" alt="" />
-                <h3>Category</h3>
-                <p>Description of the project...</p>
-            </div>
-            <div>
-                <img src="" alt="" />
-                <h3>Category</h3>
-                <p>Description of the project...</p>
-            </div> */}
         </div>
     )
 }
