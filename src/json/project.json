@@ -1,0 +1,29 @@
+{
+    "projects" :
+        [
+            {
+                "name" : "pokemon-api",
+                "category" : "web-design",
+                "imgSrc" : "src/assets/img/pokemon-api.png",
+                "description" : "It is a website which fetches the images of the pokemon you search. It also provides services like downloading of the image."
+            },
+            {
+                "name" : "*",
+                "category" : "None",
+                "imgSrc" : "/",
+                "description" : "None"
+            },
+            {
+                "name" : "*",
+                "category" : "None",
+                "imgSrc" : "/",
+                "description" : "None"
+            },
+            {
+                "name" : "*",
+                "category" : "None",
+                "imgSrc" : "/",
+                "description" : "None"
+            }
+        ]
+}
