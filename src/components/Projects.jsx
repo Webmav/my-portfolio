@@ -1,11 +1,7 @@
-import { NavLink } from 'react-router-dom'
-import { projects } from '../json/project.json';
+import { NavLink } from 'react-router-dom';
+import ProjectCard from './ProjectCard';
 
 export default function Projects() {
-    const project1 = projects[0];
-    const project2 = projects[1];
-    const project3 = projects[2];
-    const project4 = projects[3];
 
     function ProjectArrows() {
         const project1 = document.getElementById("project-1");
@@ -18,7 +14,6 @@ export default function Projects() {
 
         arrowBack.classList.toggle('max-md:hidden')
         arrowNext.classList.toggle('max-md:hidden')
-        console.log(projects[0].name);
     }
 
     return(
@@ -35,26 +30,9 @@ export default function Projects() {
             </div>
 
             <div className='flex mt-[22.67px] md:mt-[33px] gap-[33px] md:gap-[60px] shrink-0'>
-                <NavLink to='/' id='project-1' className='flex flex-col'>
-                        <img src={`${project1.imgSrc}`} alt="" className='w-[150px] md:w-[250px] h-[175px] md:h-[300px] '/>
-                        <h3 className='text-[5px] md:text-[10px] mt-[5px] md:mt-[10px] ml-[15px] md:ml-[10px] '>{project1.category}</h3>
-                        <p className="self-center text-[6px] md:text-[13px] max-w-[110px] md:max-w-[230px]">{project1.description}</p>
-                </NavLink>
-                <NavLink to='/' id='project-2' className='flex flex-col'>
-                        <img src={`${project2.imgSrc}`} alt="" className='w-[150px] md:w-[250px] h-[175px] md:h-[300px] '/>
-                        <h3 className='text-[5px] md:text-[10px] mt-[5px] md:mt-[10px] ml-[15px] md:ml-[10px] '>{project2.category}</h3>
-                        <p className="self-center text-[6px] md:text-[13px] max-w-[110px] md:max-w-[230px]">{project2.description}</p>
-                </NavLink>
-                <NavLink to='/' id='project-3' className='flex flex-col'>
-                        <img src={`${project3.imgSrc}`} alt="" className='w-[150px] md:w-[250px] h-[175px] md:h-[300px] '/>
-                        <h3 className='text-[5px] md:text-[10px] mt-[5px] md:mt-[10px] ml-[15px] md:ml-[10px] '>{project3.category}</h3>
-                        <p className="self-center text-[6px] md:text-[13px] max-w-[110px] md:max-w-[230px]">{project3.description}</p>
-                </NavLink>
-                <NavLink to='/' id='project-4' className='flex flex-col max-md:hidden'>
-                        <img src={`${project4.imgSrc}`} alt="" className='w-[150px] md:w-[250px] h-[175px] md:h-[300px] '/>
-                        <h3 className='text-[5px] md:text-[10px] mt-[5px] md:mt-[10px] ml-[15px] md:ml-[10px] '>{project4.category}</h3>
-                        <p className="self-center text-[6px] md:text-[13px] max-w-[110px] md:max-w-[230px]">{project4.description}</p>
-                </NavLink>
+                <ProjectCard projectNumber={'0'} />
+                <ProjectCard projectNumber={'1'} />
+                <ProjectCard projectNumber={'2'} />
 
                 <button 
                     id='arrow-back'
