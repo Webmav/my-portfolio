@@ -8,7 +8,7 @@ export default function Contact() {
     const [status, setStatus] = useState("")
 
     async function send() {
-        if(sending == true) {
+        if(sending) {
             return;
         }
 
@@ -17,8 +17,9 @@ export default function Contact() {
             return;
         }
 
-        const emailInput = document.querySelector(userEmail)
-        if(!emailInput.checkValidity()) {
+        const emailInput = userEmail;
+        const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/ ;
+        if(!emailPattern.test(emailInput)) {
             alert("Please enter a valid email address.");
             return;
         }
@@ -40,6 +41,7 @@ export default function Contact() {
             alert("Message send successfully.")
         } catch (error) {
             console.error(error)
+            alert("Message not send.")
         } finally {
             setSending(false)
         }
