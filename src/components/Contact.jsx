@@ -7,18 +7,42 @@ export default function Contact() {
     const [sending, setSending] = useState(false)
     const [status, setStatus] = useState("")
 
-    function Send() {
+    async function send() {
+        if(sending == true) {
+            return;
+        }
+
         if(!userEmail.trim()) {
             alert("Please enter your email address.");
             return;
         }
 
-        const emailInput = document.querySelector('input[name="email"]')
+        const emailInput = document.querySelector(userEmail)
         if(!emailInput.checkValidity()) {
-            alert("Please enter a valid email address.")
+            alert("Please enter a valid email address.");
+            return;
         }
 
-        
+        setSending(true)
+
+        const templateParams = {
+            user_email: userEmail,
+            message: message,
+        };
+         
+        try{
+            await emailjs.send(
+                import.meta.env.VITE_EMAILJS_SERVICE_ID,
+                import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+                templateParams,
+                import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+            )
+            alert("Message send successfully.")
+        } catch (error) {
+            console.error(error)
+        } finally {
+            setSending(false)
+        }
     }
 
     return(
@@ -37,7 +61,7 @@ export default function Contact() {
                     onChange={ (e) => { setUserEmail(e.target.value) } }
                 />
                 <button 
-                    onClick={Send}
+                    onClick={send}
                     className="border border-black rounded-[100vw] w-[51px] md:w-[75px] h-[20px] md:h-[30px] max-md:mbs-[10px] bg-[var(--clr-button)] hover:bg-accent-900 hover:text-primary-50"
                 >
                     <p className="flex justify-center items-center px-[15px] md:px-[23px] py-[3.5px] md:py-[5.5px] fs-225 md:fs-350">Send</p>
