@@ -3,9 +3,23 @@ import { useState } from 'react'
 
 export default function Contact() {
     const [userEmail, setUserEmail] = useState("")
-    const [message, setMessage] = useState("")
+    const [message, setMessage] = useState("Hi, I am interested in getting a free homepage mockup designed for my business.")
     const [sending, setSending] = useState(false)
     const [status, setStatus] = useState("")
+
+    function Send() {
+        if(!userEmail.trim()) {
+            alert("Please enter your email address.");
+            return;
+        }
+
+        const emailInput = document.querySelector('input[name="email"]')
+        if(!emailInput.checkValidity()) {
+            alert("Please enter a valid email address.")
+        }
+
+        
+    }
 
     return(
         <div className="grid justify-items-center py-[25px] md:py-[50px] ">
@@ -22,7 +36,10 @@ export default function Contact() {
                     placeholder="email" 
                     onChange={ (e) => { setUserEmail(e.target.value) } }
                 />
-                <button className="border border-black rounded-[100vw] w-[51px] md:w-[75px] h-[20px] md:h-[30px] max-md:mbs-[10px] bg-[var(--clr-button)] hover:bg-accent-900 hover:text-primary-50">
+                <button 
+                    onClick={Send}
+                    className="border border-black rounded-[100vw] w-[51px] md:w-[75px] h-[20px] md:h-[30px] max-md:mbs-[10px] bg-[var(--clr-button)] hover:bg-accent-900 hover:text-primary-50"
+                >
                     <p className="flex justify-center items-center px-[15px] md:px-[23px] py-[3.5px] md:py-[5.5px] fs-225 md:fs-350">Send</p>
                 </button>
             </div>
