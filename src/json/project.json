@@ -2,24 +2,24 @@
     "projects" :
         [
             {
-                "title" : "Pokemon-Api",
-                "category" : "web-design",
+                "title" : "Pokemon Api",
+                "category" : "Web Design",
                 "imgSrc" : "src/assets/img/pokemon-api.png",
                 "liveLink": "https://pokemon-react-green-mu.vercel.app/",
                 "githubLink": "https://github.com/Webmav/pokemon-react.git",
                 "description" : "A web application that allows users to search for any Pokémon, dynamically fetch high-quality images via an API, and download them instantly."
             },
             {
-                "title" : "2",
-                "category" : "*",
+                "title" : "Fine-Food",
+                "category" : "Web Design",
                 "imgSrc" : "*",
                 "liveLink": "*",
                 "githubLink": "*",
                 "description" : "*"
             },
             {
-                "title" : "3",
-                "category" : "*",
+                "title" : "Quiz",
+                "category" : "Web Design",
                 "imgSrc" : "*",
                 "liveLink": "*",
                 "githubLink": "*",
