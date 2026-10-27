@@ -2,7 +2,7 @@ import AboutMe from "../components/AboutMe";
 import Contact from "../components/Contact";
 import Hero from "../components/Hero";
 import Projects from "../components/Projects";
-import Services from "../components/Services";
+// import Services from "../components/Services";
 
 export default function HomePage() {
     return(
@@ -10,7 +10,7 @@ export default function HomePage() {
             <Hero />
             <AboutMe />
             <Projects />
-            <Services />
+            {/* <Services /> */}
             <Contact />
         </>
     )

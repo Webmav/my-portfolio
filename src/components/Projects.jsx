@@ -22,12 +22,12 @@ export default function Projects() {
 
             <p className="mbs-[10px] md:mbs-[25px] text-[10px] md:text-[21px] ">These are some of my projects</p>
 
-            <div className="flex mbs-[10px] md:mbs-[25px] gap-[10.5px] md:gap-[10px] ">
+            {/* <div className="flex mbs-[10px] md:mbs-[25px] gap-[10.5px] md:gap-[10px] ">
                 <button className="border border-white rounded-[100vw] bg-accent-800 py-[3.42px] md:py-[5.35px] md:px-[13.5px] px-[8.5px] text-[6.67px] md:text-[10px] hover:bg-accent-900 hover:text-primary-50 ">All</button>
                 <button className="border border-white rounded-[100vw] bg-accent-800 py-[3.42px] md:py-[5.35px] md:px-[13.5px] px-[8.5px] text-[6.67px] md:text-[10px] hover:bg-accent-900 hover:text-primary-50 ">UI/UX</button>
                 <button className="border border-white rounded-[100vw] bg-accent-800 py-[3.42px] md:py-[5.35px] md:px-[13.5px] px-[8.5px] text-[6.67px] md:text-[10px] hover:bg-accent-900 hover:text-primary-50 ">Web Design</button>
                 <button className="border border-white rounded-[100vw] bg-accent-800 py-[3.42px] md:py-[5.35px] md:px-[13.5px] px-[8.5px] text-[6.67px] md:text-[10px] hover:bg-accent-900 hover:text-primary-50 ">App Design</button>
-            </div>
+            </div> */}
 
             <div className='flex mt-[22.67px] md:mt-[33px] gap-[33px] md:gap-[60px] shrink-0'>
                 <ProjectCard projectNumber={'0'} />
