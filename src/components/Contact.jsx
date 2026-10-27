@@ -56,7 +56,7 @@ export default function Contact() {
 
             <div className="flex justify-center items-center max-md:flex-col mbs-[25px] md:mbs-[34px] md:gap-[25px] ">
                 <input 
-                    className="border border-black rounded-[100vw] min-w-[205px] h-[36px] py-[10px] px-[7.5px] bg-accent-400 hover:bg-accent-900" 
+                    className="border border-black rounded-[100vw] min-w-[205px] h-[36px] py-1 px-3 bg-accent-400 hover:bg-accent-900" 
                     type="email" 
                     name="email" 
                     placeholder="email" 

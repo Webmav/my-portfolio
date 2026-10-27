@@ -4,7 +4,7 @@
             {
                 "title" : "Pokemon Api",
                 "category" : "Web Design",
-                "imgSrc" : "src/assets/img/pokemon-api.png",
+                "imgSrc" : "src/assets/img/pokemon_finder_portrait_showcase.svg",
                 "liveLink": "https://pokemon-react-green-mu.vercel.app/",
                 "githubLink": "https://github.com/Webmav/pokemon-react.git",
                 "description" : "A web application that allows users to search for any Pokémon, dynamically fetch high-quality images via an API, and download them instantly."
@@ -12,7 +12,7 @@
             {
                 "title" : "Fine Food",
                 "category" : "Web Design",
-                "imgSrc" : "*",
+                "imgSrc" : "src/assets/img/fine_food_portrait_showcase.svg",
                 "liveLink": "*",
                 "githubLink": "https://github.com/Webmav/local-business-react.git",
                 "description" : "A website for a local restaurent with many features"
@@ -20,7 +20,7 @@
             {
                 "title" : "Quiz",
                 "category" : "Web Design",
-                "imgSrc" : "*",
+                "imgSrc" : "src/assets/img/quiz_time_portrait_showcase.svg",
                 "liveLink": "*",
                 "githubLink": "https://github.com/Webmav/5question-quiz.git",
                 "description" : "A web game as quiz."
