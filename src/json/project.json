@@ -10,20 +10,20 @@
                 "description" : "A web application that allows users to search for any Pokémon, dynamically fetch high-quality images via an API, and download them instantly."
             },
             {
-                "title" : "Fine-Food",
+                "title" : "Fine Food",
                 "category" : "Web Design",
                 "imgSrc" : "*",
                 "liveLink": "*",
-                "githubLink": "*",
-                "description" : "*"
+                "githubLink": "https://github.com/Webmav/local-business-react.git",
+                "description" : "A website for a local restaurent with many features"
             },
             {
                 "title" : "Quiz",
                 "category" : "Web Design",
                 "imgSrc" : "*",
                 "liveLink": "*",
-                "githubLink": "*",
-                "description" : "*"
+                "githubLink": "https://github.com/Webmav/5question-quiz.git",
+                "description" : "A web game as quiz."
             }
         ]
 }
