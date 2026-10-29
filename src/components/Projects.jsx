@@ -34,7 +34,7 @@ export default function Projects() {
                 <ProjectCard projectNumber={'1'} />
                 <ProjectCard projectNumber={'2'} />
 
-                <button 
+                {/* <button 
                     id='arrow-back'
                     className='absolute left-[2.5px] mt-[35px] text-[75px] hover:text-[var(--clr-primary-500)] max-md:hidden md:hidden'
                     onClick={ProjectArrows}            
@@ -47,7 +47,7 @@ export default function Projects() {
                     onClick={ProjectArrows}                    
                 >
                     &#8594;
-                </button>
+                </button> */}
             </div>
         </div>
     )
