@@ -229,3 +229,8 @@ nav ul {
 #social-icons {
     grid-area: social-icons;
 }
+
+
+#project-wrapper {
+    gap: clamp(1rem, 5vw, 10rem);
+}
