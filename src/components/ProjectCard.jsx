@@ -10,7 +10,7 @@ const ProjectCard = ( {projectNumber} ) => {
                     to={`${projects[projectNumber].liveLink}`}
                     className="grid"
                 >
-                    <img src={ projects[projectNumber].imgSrc } alt="" className='w-[150px] md:w-[250px] h-[175px] md:h-[300px] '/>
+                    <img src={ projects[projectNumber].imgSrc } alt="" className='w-[150px] md:w-[250px] h-[175px] md:h-[300px] rounded-[15px]'/>
                 </NavLink>
                 {/* <h3 className='text-[5px] md:text-[10px] my-[10px] md:mt-[10px] ml-[15px] md:ml-[10px] '>{ projects[projectNumber].category }</h3> */}
                 <p className="my-[10px] self-center text-[6px] text-center md:text-[13px] max-w-[110px] md:max-w-[230px]">{ projects[projectNumber].description }</p>
