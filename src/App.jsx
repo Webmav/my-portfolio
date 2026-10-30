@@ -15,7 +15,9 @@ import Footer from './components/Footer';
 export default function App() {
   return(
         <Router>
-          <MainLayout />
+          <marquee>Hi</marquee>
+
+          {/* <MainLayout />
 
           <Routes>
               <Route path="/" element={<HomePage />}/>
@@ -26,7 +28,7 @@ export default function App() {
               <Route path="*" element={<NotFoundPage />}/>
           </Routes>
 
-          <Footer />
+          <Footer /> */}
         </Router> 
   )
 }
