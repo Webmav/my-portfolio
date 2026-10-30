@@ -16,13 +16,13 @@ export default function AboutMe() {
 
             <img 
                 className="max-w-[150px] max-h-[150px] mbs-[20px] md:hidden" 
-                src="src/assets/img/about-photo.png" 
+                src="/img/about-photo.png" 
                 alt="" 
             />
 
             <img 
                 className="max-w-[213px] max-h-[114px] mbs-[36px] md:hidden" 
-                src="src/assets/img/graph-thing.png" 
+                src="/img/graph-thing.png" 
                 alt="" 
             />
 
@@ -31,12 +31,12 @@ export default function AboutMe() {
             >
                 <img 
                     className="max-w-[300px] max-h-[300px] mbs-[20px] " 
-                    src="src/assets/img/md-about-photo.png" 
+                    src="/img/md-about-photo.png" 
                     alt="" 
                 />
                 <img
                     className="max-w-[400px] max-h-[238px] mbs-[36px] " 
-                    src="src/assets/img/md-graph-thing.png" 
+                    src="/img/md-graph-thing.png" 
                     alt="" 
                 />
             </div>

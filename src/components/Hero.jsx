@@ -5,7 +5,7 @@ export default function Hero() {
         <div className="grid max-md:justify-items-center py-[50px] px-[21px] md:px-[150px]" id='hero'>
                 <p id='hi' className='w-0 h-0 text-transparent max-md:hidden'>hi</p>
 
-                <img id='hero-photo' className='md:hidden max-w-[150px] max-h-[150px]' src="src/assets/img/hero-photo.png" alt="" />
+                <img id='hero-photo' className='md:hidden max-w-[150px] max-h-[150px]' src="/img/hero-photo.png" alt="" />
 
                 <h1 id='hero-heading' className="fs-hero md:text-[var(--fs-md-hero)] max-md:text-center md:text-start max-md:mbs-[26.5px]">Hi, I am Munawar Ali</h1>
  
@@ -15,38 +15,38 @@ export default function Hero() {
                     I have experiences in css, javascript, and some other related subjects.</p>
 
                 <div id='md-hero-photo' className="justify-center mx-auto">
-                    <img className='max-md:hidden max-w-[325px] max-h-[325px]' src="src/assets/img/md-hero-photo.png" alt="" />
+                    <img className='max-md:hidden max-w-[325px] max-h-[325px]' src="/img/md-hero-photo.png" alt="" />
                 </div>
 
                 <div id='social-icons' className='flex gap-[10px] md:gap-[15px] mbs-[12.5px] md:mbs-[45px] justify-center'>
                     <NavLink
                         to='/'>
                         <svg className="icon | h-[13.33px] md:h-[20px] w-[13.33px] md:w-[20px]">
-                        <use xlinkHref="src/assets/img/social-icons.svg#Vector-1"></use>
+                        <use xlinkHref="/img/social-icons.svg#Vector-1"></use>
                         </svg>
                     </NavLink>
                     <NavLink
                         to='/'>
                         <svg className="icon | h-[13.33px] md:h-[20px] w-[13.33px] md:w-[20px]">
-                        <use xlinkHref="src/assets/img/social-icons.svg#Vector-2"></use>
+                        <use xlinkHref="/img/social-icons.svg#Vector-2"></use>
                         </svg>
                     </NavLink>
                     <NavLink
                         to='/'>
                         <svg className="icon | h-[13.33px] md:h-[20px] w-[13.33px] md:w-[20px]">
-                        <use xlinkHref="src/assets/img/social-icons.svg#Vector-3"></use>
+                        <use xlinkHref="/img/social-icons.svg#Vector-3"></use>
                         </svg>
                     </NavLink>
                     <NavLink
                         to='/'>
                         <svg className="icon | h-[13.33px] md:h-[20px] w-[13.33px] md:w-[20px]">
-                        <use xlinkHref="src/assets/img/social-icons.svg#Vector-4"></use>
+                        <use xlinkHref="/img/social-icons.svg#Vector-4"></use>
                         </svg>
                     </NavLink>
                     <NavLink
                         to='/'>
                         <svg className="icon | h-[13.33px] md:h-[20px] w-[13.33px] md:w-[20px]">
-                        <use xlinkHref="src/assets/img/social-icons.svg#Vector"></use>
+                        <use xlinkHref="/img/social-icons.svg#Vector"></use>
                         </svg>
                     </NavLink>
                 </div>
