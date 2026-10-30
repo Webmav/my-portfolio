@@ -9,7 +9,7 @@ export default function Navbar() {
     }
 
     return(
-        <nav className='flex pl-[22px] pr-[30px] md:px-[65px] pbs-[28px] pbe-[14px] md:py-[30px] justify-between'>
+        <nav className='flex pl-[22px] pr-[30px] md:px-[65px] pbs-[28px] pbe-[14px] md:py-[30px] justify-between w-full'>
             <NavLink 
                 className={LinkClass}
                 to="/"> 
