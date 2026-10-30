@@ -15,7 +15,7 @@ export default function Navbar() {
                 to="/"> 
                 <svg className="icon | w-[95px] md:w-[207px] h-[15px] md:h-[30px] mbs-[1px] mbe-[-11px] md:py-[5px] ">
                     <use 
-                        xlinkHref="src/assets/img/logo.svg#logo"
+                        xlinkHref="/img/logo.svg#logo"
                         className='w-[95px] md:w-[207px] h-[15px] md:h-[30px]'></use>
                 </svg>
             </NavLink>
@@ -59,10 +59,10 @@ export default function Navbar() {
 
             <div className='md:hidden'>
                 <svg onClick={menuButton} className="icon | hidden w-[21px] h-[22px] " id='close-icon'>
-                    <use xlinkHref="src/assets/img/menu-icons.svg#close-icon"></use>
+                    <use xlinkHref="/img/menu-icons.svg#close-icon"></use>
                 </svg>
                 <svg onClick={menuButton} className="icon | w-[21px] h-[22px] " id='burger-icon'>
-                    <use xlinkHref="src/assets/img/menu-icons.svg#burger-icon"></use>
+                    <use xlinkHref="/img/menu-icons.svg#burger-icon"></use>
                 </svg>
             </div>
         </nav>

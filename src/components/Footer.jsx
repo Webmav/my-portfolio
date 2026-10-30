@@ -16,7 +16,7 @@ export default function Footer() {
                 <NavLink
                     to='/'>
                     <svg className="icon | w-[168px] h-[36px] md:w-[406px] md:h-[66px] ">
-                        <use xlinkHref="src/assets/img/logo.svg#logo"></use>
+                        <use xlinkHref="/img/logo.svg#logo"></use>
                     </svg>
                 </NavLink>
 
@@ -51,25 +51,25 @@ export default function Footer() {
 
                     <NavLink to="https://github.com/Webmav">
                         <svg className="icon | h-[13.33px] md:h-[30px] w-[13.33px] md:w-[30px] hover:bg-blue-800 rounded">
-                        <use xlinkHref="src/assets/img/social-icon-s.svg#github-svgrepo-com"></use>
+                        <use xlinkHref="/img/social-icon-s.svg#github-svgrepo-com"></use>
                         </svg>
                     </NavLink>
 
                     <NavLink to="https://mail.google.com/mail/u/0/#inbox">
                         <svg className="icon | h-[13.33px] md:h-[30px] w-[13.33px] md:w-[30px] hover:bg-blue-800 rounded">
-                        <use xlinkHref="src/assets/img/social-icon-s.svg#gmail-svgrepo-com"></use>
+                        <use xlinkHref="/img/social-icon-s.svg#gmail-svgrepo-com"></use>
                         </svg>
                     </NavLink>
 
                     <NavLink to="https://wa.me//971583070144?text=Hi, I'd like to work with you!">
                         <svg className="icon | h-[13.33px] md:h-[30px] w-[13.33px] md:w-[30px] hover:bg-blue-800 rounded">
-                        <use xlinkHref="src/assets/img/social-icon-s.svg#whatsapp-svgrepo-com"></use>
+                        <use xlinkHref="/img/social-icon-s.svg#whatsapp-svgrepo-com"></use>
                         </svg>
                     </NavLink>
 
                     <NavLink to="https://www.linkedin.com/in/munawaraliv">
                         <svg className="icon | h-[13.33px] md:h-[30px] w-[13.33px] md:w-[30px] hover:bg-blue-800 rounded">
-                            <use xlinkHref="src/assets/img/social-icon-s.svg#linkedin-svgrepo-com"></use>
+                            <use xlinkHref="/img/social-icon-s.svg#linkedin-svgrepo-com"></use>
                         </svg>
                     </NavLink>
                 </div>
