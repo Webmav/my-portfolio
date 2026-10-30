@@ -54,41 +54,32 @@ export default function Hero() {
                 />
             </div>
 
-            <div id='social-icons' className='flex gap-[10px] md:gap-[15px] mbs-[12.5px] md:mbs-[45px] justify-center'>
-                <NavLink
-                    to='/'>
-                    <svg className="icon | h-[13.33px] md:h-[20px] w-[13.33px] md:w-[20px]">
-                    <use xlinkHref="/img/social-icons.svg#Vector-1"></use>
-                    </svg>
-                </NavLink>
+            <div id='social-icons' className='flex gap-[10px] md:gap-[15px] mbs-[12.5px] md:mbs-[45px] justify-center'> 
+                    <NavLink to="https://wa.me//971583070144?text=Hi, I'd like to work with you!">
+                        <svg className="icon | h-[13.33px] md:h-[30px] w-[13.33px] md:w-[30px] hover:bg-blue-800 rounded">
+                            <use xlinkHref="/img/social-icon-s.svg#whatsapp-svgrepo-com"></use>
+                        </svg>
+                    </NavLink>
+                    
+                    <NavLink to="https://github.com/Webmav">
+                        <svg className="icon | h-[13.33px] md:h-[30px] w-[13.33px] md:w-[30px] hover:bg-blue-800 rounded">
+                            <use xlinkHref="/img/social-icon-s.svg#github-svgrepo-com"></use>
+                        </svg>
+                    </NavLink>
+                    
+                    <NavLink to="https://www.linkedin.com/in/munawaraliv">
+                        <svg className="icon | h-[13.33px] md:h-[30px] w-[13.33px] md:w-[30px] hover:bg-blue-800 rounded">
+                            <use xlinkHref="/img/social-icon-s.svg#linkedin-svgrepo-com"></use>
+                        </svg>
+                    </NavLink>
 
-                <NavLink
-                    to='/'>
-                    <svg className="icon | h-[13.33px] md:h-[20px] w-[13.33px] md:w-[20px]">
-                    <use xlinkHref="/img/social-icons.svg#Vector-2"></use>
-                    </svg>
-                </NavLink>
+                    <NavLink to="https://mail.google.com/mail/u/0/#inbox">
+                        <svg className="icon | h-[13.33px] md:h-[30px] w-[13.33px] md:w-[30px] hover:bg-blue-800 rounded">
+                            <use xlinkHref="/img/social-icon-s.svg#gmail-svgrepo-com"></use>
+                        </svg>
+                    </NavLink>
 
-                <NavLink
-                    to='/'>
-                    <svg className="icon | h-[13.33px] md:h-[20px] w-[13.33px] md:w-[20px]">
-                    <use xlinkHref="/img/social-icons.svg#Vector-3"></use>
-                    </svg>
-                </NavLink>
 
-                <NavLink
-                    to='/'>
-                    <svg className="icon | h-[13.33px] md:h-[20px] w-[13.33px] md:w-[20px]">
-                    <use xlinkHref="/img/social-icons.svg#Vector-4"></use>
-                    </svg>
-                </NavLink>
-
-                <NavLink
-                    to='/'>
-                    <svg className="icon | h-[13.33px] md:h-[20px] w-[13.33px] md:w-[20px]">
-                    <use xlinkHref="/img/social-icons.svg#Vector"></use>
-                    </svg>
-                </NavLink>
             </div>
         </div>
     )

@@ -48,7 +48,6 @@ export default function Footer() {
                 </ul>
 
                 <div className='flex gap-[10px] md:gap-[15px]'>
-
                     <NavLink to="https://github.com/Webmav">
                         <svg className="icon | h-[13.33px] md:h-[30px] w-[13.33px] md:w-[30px] hover:bg-blue-800 rounded">
                         <use xlinkHref="/img/social-icon-s.svg#github-svgrepo-com"></use>
