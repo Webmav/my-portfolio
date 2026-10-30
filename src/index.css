@@ -1,10 +1,5 @@
 @import 'tailwindcss';
 
-
-
-
-
-
 /* -------------------------- */
 
 :root {
@@ -183,6 +178,7 @@ nav ul {
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        border-radius: .25rem;
 
         position: absolute;
         top: 50px;
@@ -191,7 +187,7 @@ nav ul {
         width: 250px;
         height: 250px;
         background-color: white;
-        border: 2px solid black;
+        box-shadow: 0rem .5rem 1rem 150rem #3d3d3d60;
     }
 }
 
