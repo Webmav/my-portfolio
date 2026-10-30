@@ -4,13 +4,13 @@ export default function AboutMe() {
             <h1 className="text-[16.67px] md:text-[25px]">About me</h1>
 
             <p 
-                className="mbs-[20px] md:mbs-[40px] text-[14px] md:text-[21px] mbs-[20px] md:mbs-[40px] md:max-w-[1000px]"
+                className="mbs-[20px] md:mbs-[40px] text-[14px] md:text-[21px] mbs-[20px] md:mbs-[40px] max-w-[350px] md:max-w-[1000px]"
             >
                 I design and build websites for local businesses in Kerala like restaurants and shops. 
                 My sites make it easy for customers to order without calling.
             </p>
-            
-            <p className="mbs-[20px] md:mbs-[40px] text-[14px] md:text-[21px] mbs-[20px] md:mbs-[40px] md:max-w-[750px]">
+
+            <p className="mbs-[20px] md:mbs-[40px] text-[14px] md:text-[21px] mbs-[20px] md:mbs-[40px] max-w-[300px] md:max-w-[750px]">
                 Every site includes order taking, order management for staff, WhatsApp, phone or email 
                 contact, and hosting.
             </p>
