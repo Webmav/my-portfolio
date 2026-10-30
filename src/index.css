@@ -9,8 +9,11 @@
     --clr-primary-400: rgb(255, 204, 0);
     --clr-primary-500: rgb(212, 170, 0);
     
+    --clr-accent-300: rgb(0, 0, 225);
     --clr-accent-400: rgb(0, 0, 200);
+    --clr-accent-500: rgb(2, 2, 150);
     --clr-accent-600: rgb(0, 0, 125);
+    --clr-accent-750: rgb(1, 1, 100);
     --clr-accent-800: rgb(0, 0, 65);
     --clr-accent-900: rgb(0, 0, 40);
     
@@ -102,11 +105,20 @@ footer#copyright {
     color: var(--clr-primary-400);
 }
 
+.bg-accent-300 {
+    background-color: var(--clr-accent-300);
+}
 .bg-accent-400 {
     background-color: var(--clr-accent-400);
 }
+.bg-accent-500 {
+    background-color: var(--clr-accent-500);
+}
 .bg-accent-600 {
     background-color: var(--clr-accent-600);
+}
+.bg-accent-750 {
+    background-color: var(--clr-accent-750);
 }
 .bg-accent-800 {
     background-color: var(--clr-accent-800);
@@ -178,7 +190,7 @@ nav ul {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        border-radius: .25rem;
+        border-radius: .75rem;
 
         position: absolute;
         top: 50px;

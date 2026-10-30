@@ -1,11 +1,20 @@
 import { NavLink } from 'react-router-dom';
-import { useState } from 'react';
 
 export default function Navbar() {
     const LinkClass = ({ isActive }) => {
         isActive
         ? ""
         : "";
+    }
+
+    function menuButton() {
+        const menuList = document.getElementById('menu-list');
+        const burgerIcon = document.getElementById('burger-icon');
+        const closeIcon = document.getElementById('close-icon');
+
+        menuList.classList.toggle('open')
+        burgerIcon.classList.toggle('hidden')
+        closeIcon.classList.toggle('hidden')
     }
 
     return(
@@ -67,18 +76,5 @@ export default function Navbar() {
             </div>
         </nav>
     )
-
-    
-    function menuButton() {
-        const menuList = document.getElementById('menu-list');
-        const burgerIcon = document.getElementById('burger-icon');
-        const closeIcon = document.getElementById('close-icon');
-
-        menuList.classList.toggle('open')
-        burgerIcon.classList.toggle('hidden')
-        closeIcon.classList.toggle('hidden')
-
-
-    }
 }
 
