@@ -3,6 +3,8 @@ import {
   BrowserRouter as Router, 
   Routes
 } from 'react-router-dom';
+import { Analytics } from '@vercel/analytics/react'
+import { SpeedInsights } from '@vercel/analytics/react'
 
 import MainLayout from './layouts/MainLayout';
 import HomePage from "./pages/HomePage";
@@ -29,6 +31,9 @@ export default function App() {
           </Routes>
 
           <Footer />
+
+          <SpeedInsights />
+          <Analytics />
         </Router> 
   )
 }
