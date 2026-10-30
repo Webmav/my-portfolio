@@ -5,7 +5,7 @@ const ProjectCard = ( {projectNumber} ) => {
 
     return(
             <div>
-                <h1 className='justify-self-center text-[17.5px] md:text-[22.5px] my-[7.5px] md:my-[10px] '> { projects[projectNumber].title } </h1>
+                <h1 className='justify-self-center text-[20px] md:text-[22.5px] my-[7.5px] md:my-[10px] '> { projects[projectNumber].title } </h1>
 
                 <NavLink
                     to={`${projects[projectNumber].liveLink}`}
