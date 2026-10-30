@@ -14,13 +14,13 @@ const ProjectCard = ( {projectNumber} ) => {
                     <img 
                         src={ projects[projectNumber].imgSrc } 
                         alt="" 
-                        className='justify-self-center self-center w-[112px] md:w-[250px] h-[140px] md:h-[300px]'
+                        className='justify-self-center self-center w-[112px] md:w-[300px] h-[140px] md:h-[350px]'
                     />
                 </NavLink>
 
                 {/* <h3 className='text-[5px] md:text-[10px] my-[10px] md:mt-[10px] ml-[15px] md:ml-[10px] '>{ projects[projectNumber].category }</h3> */}
 
-                <p className="my-[5px] md:my-[10px] justify-self-center self-center text-center text-[8.5px] md:text-[15px] max-w-[95px] md:max-w-[230px]">
+                <p className="my-[5px] md:my-[15px] justify-self-center self-center text-center text-[8.5px] md:text-[15px] max-w-[95px] md:max-w-[230px]">
                     { projects[projectNumber].description }
                 </p>
                 

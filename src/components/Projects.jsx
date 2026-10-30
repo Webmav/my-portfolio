@@ -29,7 +29,7 @@ export default function Projects() {
                 <button className="border border-white rounded-[100vw] bg-accent-800 py-[3.42px] md:py-[5.35px] md:px-[13.5px] px-[8.5px] text-[6.67px] md:text-[10px] hover:bg-accent-900 hover:text-primary-50 ">App Design</button>
             </div> */}
 
-            <div className='flex mt-[22.67px] md:mt-[33px] mx-[5px] gap-[33px] shrink-0' id='project-wrapper'>
+            <div className='flex flex-wrap justify-center mt-[22.67px] md:mt-[33px] mx-[5px] sm:gap-[33px] shrink-0' id='project-wrapper'>
                 <ProjectCard projectNumber={'0'} />
                 <ProjectCard projectNumber={'1'} />
                 <ProjectCard projectNumber={'2'} />
