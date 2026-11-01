@@ -45,7 +45,7 @@ export default function Projects() {
                 <NavLink
                     to='/projects'
                 >
-                    <ProjectCard2 isBaseWidth={250} isAspectRatio={.75} isGap={12} isRadius={15} isAutoplayDelay={4000}/>
+                    <ProjectCard2 isBaseWidth={250} isAspectRatio={.75} isGap={12} isRadius={15} isAutoplayDelay={3000}/>
                 </NavLink>
             </div>
         </div>

@@ -5,7 +5,9 @@ const ProjectCard = ( {projectNumber} ) => {
 
     return(
             <div>
-                <h1 className='justify-self-center text-[20px] md:text-[22.5px] my-[7.5px] md:my-[10px] '> { projects[projectNumber].title } </h1>
+                <div className="flex justify-center">
+                    <h1 className='text-[20px] md:text-[22.5px] my-[7.5px] md:my-[10px]'> { projects[projectNumber].title } </h1>
+                </div>
 
                 <NavLink
                     to={`${projects[projectNumber].liveLink}`}
@@ -24,19 +26,21 @@ const ProjectCard = ( {projectNumber} ) => {
                     { projects[projectNumber].description }
                 </p>
                 
-                <div className='flex text-[10px] md:text-[10px] justify-self-center gap-[15px] text-yellow-500 md:my-[15px] '>
-                    <NavLink
-                        to={`${projects[projectNumber].liveLink}`}
-                        className="grid"
-                    >
-                        <p className='hover:text-yellow-700'>View Site</p>
-                    </NavLink>
-                    <NavLink
-                        to={`${projects[projectNumber].githubLink}`}
-                        className="grid"
-                    >
-                        <p className='hover:text-yellow-700'>View Github</p>
-                    </NavLink>
+                <div className="flex justify-center">
+                    <div className='flex text-[10px] md:text-[10px] gap-[15px] text-yellow-500 md:my-[15px] '>
+                        <NavLink
+                            to={`${projects[projectNumber].liveLink}`}
+                            className="grid"
+                        >
+                            <p className='hover:text-yellow-700'>View Site</p>
+                        </NavLink>
+                        <NavLink
+                            to={`${projects[projectNumber].githubLink}`}
+                            className="grid"
+                        >
+                            <p className='hover:text-yellow-700'>View Github</p>
+                        </NavLink>
+                    </div>
                 </div>
             </div>
     )
