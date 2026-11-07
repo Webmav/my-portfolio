@@ -9,16 +9,18 @@ const ProjectCard = ( {projectNumber} ) => {
                     <h1 className='text-[20px] md:text-[22.5px] my-[7.5px] md:my-[10px]'> { projects[projectNumber].title } </h1>
                 </div>
 
-                <NavLink
-                    to={`${projects[projectNumber].liveLink}`}
-                    className="grid object-contain"
-                >
-                    <img 
-                        src={ projects[projectNumber].imgSrc } 
-                        alt="" 
-                        className='justify-self-center self-center w-[190px] md:w-[300px] h-[240px] md:h-[350px]'
-                    />
-                </NavLink>
+                <div className="shadow-[0_0.125rem_20rem_-2.75rem_gray] rounded-[7.5px] px-1 py-3">
+                    <NavLink
+                        to={`${projects[projectNumber].liveLink}`}
+                        className="grid object-contain"
+                    >
+                        <img
+                            src={ projects[projectNumber].imgSrc }
+                            alt=""
+                            className='justify-self-center self-center w-[190px] md:w-[300px] h-[240px] md:h-[350px]'
+                        />
+                    </NavLink>
+                </div>
 
                 {/* <h3 className='text-[5px] md:text-[10px] my-[10px] md:mt-[10px] ml-[15px] md:ml-[10px] '>{ projects[projectNumber].category }</h3> */}
 
