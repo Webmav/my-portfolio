@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 export default function Hero() {
     return(
         <div 
-            className="grid max-md:justify-items-center justify-items-center px-[21px] md:px-[150px] py-[25px] md:py-[50px]" 
+            className="grid max-md:justify-items-center justify-contents-center px-[21px] md:px-[150px] py-[25px] md:py-[50px] mx-auto justify-self-center"  
             id='hero'
         >
 
