@@ -6,7 +6,7 @@ export default function AboutMe() {
             <p 
                 className="mbs-[20px] md:mbs-[40px] text-[14px] md:text-[21px] mbs-[20px] md:mbs-[40px] max-w-[350px] md:max-w-[1000px]"
             >
-                I design and build websites for local businesses in Kerala like restaurants and shops. 
+                I design and build websites for businesses in Kerala like restaurants and shops. 
                 My sites make it easy for customers to order without calling.
             </p>
 
