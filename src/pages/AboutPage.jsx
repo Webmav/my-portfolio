@@ -1,25 +1,32 @@
 export default function AboutPage() {
     return(
-        <div className="flex justify-center items-center my-[25px]">
-            <div>
-                <div className="flex md:gap-[50px]">
-                    <img src="/img/md-hero-photo.png" alt="none" />
+        <div className="flex justify-center items-center md:mx-[100px] my-[65px]">
+            <div className="">
+                <div className="flex md:gap-[50px] items-center">
+                    <img 
+                        className="max-w-[100%] max-h-[100%] w-[300px] rounded-[25px] shadow-[0rem_1rem_3.5rem_-1rem_gray]"
+                        src="/img/munawar-ali-cropped.jpg" 
+                        alt="none" 
+                    />
 
                     <div>
-                        <h1 className="bold">ABOUT ME</h1>
+                        <h1 className="font-bold text-[24px]">ABOUT ME</h1>
 
-                        <h2>I build websites that bring businesses more customers.</h2>
+                        <h2 className="font-bold text-[56px] text-black leading-[64px]">I build websites that bring businesses 
+                            <br />
+                            more customers.
+                        </h2>
 
-                        <h3>Munawar Ali, web designer and developer in Kerala.</h3>
+                        <h3 className="text-[18px] text-gray-500 font-regular">Munawar Ali, web designer and developer in Kerala.</h3>
                     </div>
                 </div>
 
-                <div>
-                    <h3>[YOUR STORY: why you started building websites for local businesses]</h3>
-                    <h3>[YOUR STORY: why Kerala, and how you work with shop owners]</h3>
+                <div className="flex flex-col my-[65px] gap-[25px]">
+                    <h3 className="text-[20px] ">[YOUR STORY: why you started building websites for local businesses]</h3>
+                    <h3 className="text-[20px] ">[YOUR STORY: why Kerala, and how you work with shop owners]</h3>
                 </div>
 
-                <div className="flex md:gap-[25px]">
+                <div className="flex md:gap-[25px] my-[65px]">
                     <div className="border border-gray rounded">
                         <h1>1</h1>
 
