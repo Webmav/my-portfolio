@@ -27,40 +27,40 @@ export default function AboutPage() {
                 </div>
 
                 <div className="flex md:gap-[25px] my-[65px]">
-                    <div className="border border-gray rounded">
-                        <h1>1</h1>
+                    <div className="flex flex-col gap-[7.5px] border border-gray rounded-[18px] px-[40px] py-[35px]">
+                        <h1 className="text-indigo-500">01</h1>
 
-                        <h2>Design</h2>
+                        <h2 className="text-[30px] text-black font-bold">Design</h2>
 
-                        <h3>Clean, mobile-first layouts that match your brand.</h3>
+                        <h3 className="text-[27.5px] font-regular ">Clean, mobile-first layouts that match your brand.</h3>
                     </div>
-                    <div className="border border-gray rounded">
-                        <h1>2</h1>
+                    <div className="flex flex-col gap-[7.5px] border border-gray rounded-[18px] px-[40px] py-[35px]">
+                        <h1 className="text-indigo-500">02</h1>
 
-                        <h2>Development</h2>
+                        <h2 className="text-[30px] text-black font-bold">Development</h2>
 
-                        <h3>Fast sites with online ordering and staff order management.</h3>
+                        <h3 className="text-[27.5px] font-regular ">Fast sites with online ordering and staff order management.</h3>
                     </div>
-                    <div className="border border-gray rounded">
-                        <h1>3</h1>
+                    <div className="flex flex-col gap-[7.5px] border border-gray rounded-[18px] px-[40px] py-[35px]">
+                        <h1 className="text-indigo-500">03</h1>
 
-                        <h2>Launch and hosting</h2>
+                        <h2 className="text-[30px] text-black font-bold">Launch and hosting</h2>
 
-                        <h3>Domain, hosting, and WhatsApp, phone and email contact set up for you.</h3>
+                        <h3 className="text-[27.5px] font-regular ">Domain, hosting, and WhatsApp, phone and email contact set up for you.</h3>
                     </div>
                 </div>
 
-                <div className="flex md:gap-[12.5px]">
-                    <h2 className="rounded bg-gray-100">React</h2>
-                    <h2 className="rounded bg-gray-100">Vite</h2>
-                    <h2 className="rounded bg-gray-100">Tailwind CSS</h2>
-                    <h2 className="rounded bg-gray-100">JavaScript</h2>
+                <div className="flex md:gap-[12.5px] my-[65px]">
+                    <h2 className="rounded-[15px] bg-gray-100 px-4 py-1 text-gray-500">React</h2>
+                    <h2 className="rounded-[15px] bg-gray-100 px-4 py-1 text-gray-500">Vite</h2>
+                    <h2 className="rounded-[15px] bg-gray-100 px-4 py-1 text-gray-500">Tailwind CSS</h2>
+                    <h2 className="rounded-[15px] bg-gray-100 px-4 py-1 text-gray-500">JavaScript</h2>
                 </div>
 
-                <div className="flex flex-col rounded bg-accent-300 justify-center items-center">
-                    <h1>Get a free homepage mockup in 2 weeks</h1>
+                <div className="flex flex-col gap-[20px] rounded-[1.5rem] bg-indigo-600 justify-center items-center my-[65px] py-[65px] ">
+                    <h1 className="text-[40px] text-white ">Get a free homepage mockup in 2 weeks</h1>
                     
-                    <button>Message me on WhatsApp</button>
+                    <button className="text-[20px] bg-white px-[32px] py-[12px] rounded-[.6rem] text-indigo-800 hover:text-indigo-500 hover:border ">Message me on WhatsApp</button>
                 </div>
             </div>
         </div>
