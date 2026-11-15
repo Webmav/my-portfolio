@@ -60,7 +60,11 @@ export default function AboutPage() {
                 <div className="flex flex-col gap-[20px] rounded-[1.5rem] bg-indigo-600 justify-center items-center my-[65px] py-[65px] ">
                     <h1 className="text-[40px] text-white ">Get a free homepage mockup in 2 weeks</h1>
                     
-                    <button className="text-[20px] bg-white px-[32px] py-[12px] rounded-[.6rem] text-indigo-800 hover:text-indigo-500 hover:border ">Message me on WhatsApp</button>
+                    <h3 className="text-[20px] bg-white px-[32px] py-[12px] rounded-[.6rem] text-indigo-800 hover:text-indigo-500 hover:border ">
+                        <a href="https://wa.me//971583070144?text=Hi, I'd like a free mockup">
+                            Message me on WhatsApp
+                        </a>
+                    </h3>
                 </div>
             </div>
         </div>
