@@ -1,6 +1,6 @@
 export default function ContactPage() {
     return(
-        <div className="px-[185px] py-[100px] ">
+        <div className="px-[185px] py-[100px] pb-[150px] ">
             <div className="flex flex-col gap-[12px]">
                 <h1 className="text-[18px] text-indigo-500 mt-[12px]">CONTACT</h1>
 
@@ -40,36 +40,37 @@ export default function ContactPage() {
                     </div>
                 </div>
 
-                <div className="border border-gray-300 rounded-[12px] px-[40px] py-[40px] text-black">
+                <div className="flex flex-col gap-[24px] border border-gray-300 rounded-[12px] px-[40px] py-[40px] text-black w-full">
                     <div>
-                        <h2 className="px-[3px] text-[18px]">Your name</h2>
+                        <h2 className="px-[3px] text-[20px] mb-[2px] ">Your name</h2>
                         <input
                             type="text"
                             name="name"
                             placeholder="Name"
-                            className="border border-gray-300 rounded px-3 py-1 w-full"
+                            className="border border-gray-300 h-[58px] rounded px-3 py-1 w-full text-[20px]"
                         />
                     </div>
                     <div>
-                        <h2 className="px-[3px] text-[18px]">Email or phone</h2>
+                        <h2 className="px-[3px] text-[20px] mb-[2px] ">Email or phone</h2>
                         <input
                             type="email"
                             name="emailOrPhone"
                             placeholder="How can I reach you?"
-                            className="border border-gray-300 rounded px-3 py-1 w-full"
+                            className="border border-gray-300 h-[58px] rounded px-3 py-1 w-full text-[20px]"
                         />
                     </div>
                     <div>
-                        <h2 className="px-[3px] text-[18px]">Tell me about your business</h2>
+                        <h2 className="px-[3px] text-[20px] mb-[2px] ">Tell me about your business</h2>
                         <textarea
                             type="email"
                             name="emailOrPhone"
                             placeholder="What do you sell, and what do you want the website to do?"
-                            className="border border-gray-300 rounded px-3 py-1 w-full"
+                            className="border border-gray-300 h-[150px] rounded px-3 py-1 w-full text-[20px]"
                         />
                     </div>
+
                     <button
-                        className="rounded w-full"
+                        className="rounded-[12px] w-full h-[60px] bg-indigo-600 text-white text-[20px] active:bg-indigo-700"
                     >
                         Send message
                     </button>
