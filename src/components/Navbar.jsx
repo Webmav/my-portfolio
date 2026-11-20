@@ -61,10 +61,12 @@ export default function Navbar() {
                 </NavLink>
             </ul>
 
-            <NavLink
-                to="/">
-                <button className="rounded-[100vw] px-[40px] py-[10.25px] bg-indigo-600 active:bg-indigo-900 text-white active:text-gray-300">Button</button>
-            </NavLink>
+                <a 
+                    href="https://wa.me//971583070144?text=Hi, I'd like a free mockup"
+                    className="rounded-[100vw] px-[40px] py-[10.25px] bg-indigo-600 active:bg-indigo-900 text-white active:text-gray-300 max-md:hidden"
+                >
+                            Contact me
+                </a>
 
             <div className='md:hidden'>
                 <svg onClick={menuButton} className="icon | hidden w-[21px] h-[22px] " id='close-icon'>
