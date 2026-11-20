@@ -29,41 +29,41 @@ export default function Navbar() {
                 </svg>
             </NavLink>
 
-            <ul id='menu-list' className="flex mr-[73px] ">
+            <ul id='menu-list' className="flex mr-[73px]">
                 <NavLink 
                     className={LinkClass}
                     to="/">
-                    <li>Home</li>
+                    <li className='text-[20px] md:text-white active:text-gray-300'>Home</li>
                 </NavLink>
 
                 <NavLink 
                     className={LinkClass}
                     to="/about">
-                    <li>About</li>
+                    <li className='text-[20px] md:text-white active:text-gray-300'>About</li>
                 </NavLink>
 
                 <NavLink 
                     className={LinkClass}
                     to="/services">
-                    <li>Services</li>
+                    <li className='text-[20px] md:text-white active:text-gray-300'>Services</li>
                 </NavLink>
 
                 <NavLink 
                     className={LinkClass}
                     to="/projects">
-                    <li>Projects</li>
+                    <li className='text-[20px] md:text-white active:text-gray-300'>Projects</li>
                 </NavLink>
 
                 <NavLink 
                     className={LinkClass}
                     to="/contact">
-                    <li>Contact</li>
+                    <li className='text-[20px] md:text-white active:text-gray-300'>Contact</li>
                 </NavLink>
             </ul>
 
             <NavLink
                 to="/">
-                <button className=" border border-black rounded-[100vw] px-[40px] py-[10.25px] bg-accent-800 hover:bg-accent-900 hover:text-primary-50">Button</button>
+                <button className="rounded-[100vw] px-[40px] py-[10.25px] bg-indigo-600 active:bg-indigo-900 text-white active:text-gray-300">Button</button>
             </NavLink>
 
             <div className='md:hidden'>

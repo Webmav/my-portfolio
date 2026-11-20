@@ -34,6 +34,3 @@ export default function App() {
         </Router> 
   )
 }
-
-
-//Project slider

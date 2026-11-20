@@ -77,7 +77,6 @@ Text sizes
 
 body {
     font-family: var(--ff-primary); 
-    color: var(--clr-primary-400);
 }
 
 nav {
