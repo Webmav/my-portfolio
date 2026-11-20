@@ -11,6 +11,7 @@ import ProjectPage from './pages/ProjectPage';
 import ContactPage from './pages/ContactPage';
 import NotFoundPage from "./pages/NotFoundPage";
 import Footer from './components/Footer';
+import ServicePage from './pages/ServicesPage';
 
 export default function App() {
   return(
@@ -21,9 +22,10 @@ export default function App() {
 
           <Routes>
               <Route path="/" element={<HomePage />}/>
-              <Route path="/projects" element={<ProjectPage />}/>
-              <Route path="/about" element={<AboutPage />}/>
-              <Route path="/contact" element={<ContactPage />}/>
+              <Route path="/projects" element={<ProjectPage />} />
+              <Route path="/about" element={<AboutPage />} />
+              <Route path="/contact" element={<ContactPage />} />
+              <Route path="/services" element={<ServicePage />} />
 
               <Route path="*" element={<NotFoundPage />}/>
           </Routes>
