@@ -4,6 +4,9 @@ import {
   Routes
 } from 'react-router-dom';
 
+import { SpeedInsights } from '@vercel/speed-insights/react'
+import { Analytics } from '@vercel/analytics/react'
+
 import MainLayout from './layouts/MainLayout';
 import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
@@ -29,6 +32,9 @@ export default function App() {
 
               <Route path="*" element={<NotFoundPage />}/>
           </Routes>
+
+          <Analytics />
+          <SpeedInsights />
 
           <Footer />
         </Router> 
