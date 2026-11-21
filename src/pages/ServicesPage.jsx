@@ -10,7 +10,7 @@ export default function ServicesPage() {
             </div>
 
             <div className="flex max-md:flex-col max-md:items-center md:grid md:grid-cols-3 gap-[14px] md:gap-[32px] mt-[25px] md:mt-[90px] ">
-                <div className="flex flex-col gap-[8px] border border-gray-300 rounded-[12px] w-[275px] md:w-[400px] h-[175px] md:h-[225px] px-[16px] md:px-[32px] py-[12px] md:py-[32px] ">
+                <div className="flex flex-col gap-[8px] border border-gray-300 rounded-[12px] w-[275px] md:w-[350px] h-[175px] md:h-[225px] px-[16px] md:px-[32px] py-[12px] md:py-[32px] ">
                     <h1 className="max-md:text-[14px] text-indigo-500">01</h1>
 
                     <h2 className="font-bold text-[18px] md:text-[24px] text-black">Website design</h2>
@@ -18,7 +18,7 @@ export default function ServicesPage() {
                     <p className="text-[16px] md:text-[20px] text-gray-500">A free homepage mockup within two weeks, so you see your site before you commit.</p>
                 </div>
 
-                <div className="flex flex-col gap-[8px] border border-gray-300 rounded-[12px] w-[275px] md:w-[400px] h-[175px] md:h-[225px] px-[16px] md:px-[32px] py-[12px] md:py-[32px] ">
+                <div className="flex flex-col gap-[8px] border border-gray-300 rounded-[12px] w-[275px] md:w-[350px] h-[175px] md:h-[225px] px-[16px] md:px-[32px] py-[12px] md:py-[32px] ">
                     <h1 className="max-md:text-[14px] text-indigo-500">02</h1>
 
                     <h2 className="font-bold text-[18px] md:text-[24px] text-black">Website development</h2>
@@ -26,7 +26,7 @@ export default function ServicesPage() {
                     <p className="text-[16px] md:text-[20px] text-gray-500">Fast, mobile-friendly sites built with React and Tailwind CSS.</p>
                 </div>
 
-                <div className="flex flex-col gap-[8px] border border-gray-300 rounded-[12px] w-[275px] md:w-[400px] h-[175px] md:h-[225px] px-[16px] md:px-[32px] py-[12px] md:py-[32px] ">
+                <div className="flex flex-col gap-[8px] border border-gray-300 rounded-[12px] w-[275px] md:w-[350px] h-[175px] md:h-[225px] px-[16px] md:px-[32px] py-[12px] md:py-[32px] ">
                     <h1 className="max-md:text-[14px] text-indigo-500">03</h1>
 
                     <h2 className="font-bold text-[18px] md:text-[24px] text-black">Online order taking</h2>
@@ -34,7 +34,7 @@ export default function ServicesPage() {
                     <p className="text-[16px] md:text-[20px] text-gray-500">Customers place orders straight from your website, no app needed.</p>
                 </div>
 
-                <div className="flex flex-col gap-[8px] border border-gray-300 rounded-[12px] w-[275px] md:w-[400px] h-[175px] md:h-[225px] px-[16px] md:px-[32px] py-[12px] md:py-[32px] ">
+                <div className="flex flex-col gap-[8px] border border-gray-300 rounded-[12px] w-[275px] md:w-[350px] h-[175px] md:h-[225px] px-[16px] md:px-[32px] py-[12px] md:py-[32px] ">
                     <h1 className="max-md:text-[14px] text-indigo-500">04</h1>
 
                     <h2 className="font-bold text-[18px] md:text-[24px] text-black">Staff order management</h2>
@@ -42,7 +42,7 @@ export default function ServicesPage() {
                     <p className="text-[16px] md:text-[20px] text-gray-500">A simple screen where your staff see and manage incoming orders.</p>
                 </div>
 
-                <div className="flex flex-col gap-[8px] border border-gray-300 rounded-[12px] w-[275px] md:w-[400px] h-[175px] md:h-[225px] px-[16px] md:px-[32px] py-[12px] md:py-[32px] ">
+                <div className="flex flex-col gap-[8px] border border-gray-300 rounded-[12px] w-[275px] md:w-[350px] h-[175px] md:h-[225px] px-[16px] md:px-[32px] py-[12px] md:py-[32px] ">
                     <h1 className="max-md:text-[14px] text-indigo-500">05</h1>
 
                     <h2 className="font-bold text-[18px] md:text-[24px] text-black">Contact setup</h2>
@@ -50,7 +50,7 @@ export default function ServicesPage() {
                     <p className="text-[16px] md:text-[20px] text-gray-500">WhatsApp, phone and email buttons so customers can reach you in one tap.</p>
                 </div>
 
-                <div className="flex flex-col gap-[8px] border border-gray-300 rounded-[12px] w-[275px] md:w-[400px] h-[175px] md:h-[225px] px-[16px] md:px-[32px] py-[12px] md:py-[32px] ">
+                <div className="flex flex-col gap-[8px] border border-gray-300 rounded-[12px] w-[275px] md:w-[350px] h-[175px] md:h-[225px] px-[16px] md:px-[32px] py-[12px] md:py-[32px] ">
                     <h1 className="max-md:text-[14px] text-indigo-500">06</h1>
 
                     <h2 className="font-bold text-[18px] md:text-[24px] text-black">Domain and hosting</h2>
