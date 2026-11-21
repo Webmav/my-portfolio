@@ -2,15 +2,6 @@
     "projects" :
         [
             {
-                "title" : "Pokemon Api",
-                "category" : "Web Design",
-                "imgSrc" : "/img/pokemon_finder_portrait_showcase.svg",
-                "webImgSrc" : "/img/pokemon_finder_cover_landscape.svg",
-                "liveLink": "https://pokemon-react-green-mu.vercel.app/",
-                "githubLink": "https://github.com/Webmav/pokemon-react.git",
-                "description" : "A web app to search any Pokémon, fetch high-quality images via API, and download them instantly."
-            },
-            {
                 "title" : "Fine Food",
                 "category" : "Web Design",
                 "imgSrc" : "/img/fine_food_portrait_showcase.svg",
@@ -18,6 +9,15 @@
                 "liveLink": "https://local-business-react.vercel.app/",
                 "githubLink": "https://github.com/Webmav/local-business-react.git",
                 "description" : "A modern restaurant website where customers can browse the menu, place orders online, and reach out instantly via WhatsApp, phone, or email."
+            },
+            {
+                "title" : "Pokemon Api",
+                "category" : "Web Design",
+                "imgSrc" : "/img/pokemon_finder_portrait_showcase.svg",
+                "webImgSrc" : "/img/pokemon_finder_cover_landscape.svg",
+                "liveLink": "https://pokemon-react-green-mu.vercel.app/",
+                "githubLink": "https://github.com/Webmav/pokemon-react.git",
+                "description" : "A web app to search any Pokémon, fetch high-quality images via API, and download them instantly."
             },
             {
                 "title" : "Quiz",
