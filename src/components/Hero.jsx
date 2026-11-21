@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 export default function Hero() {
     return(
         <div 
-            className="grid max-md:justify-items-center justify-contents-center px-auto md:px-[150px] py-[25px] md:py-[50px] mx-auto justify-self-center"  
+            className="grid max-md:justify-items-center justify-contents-center px-auto md:px-[150px] pt-[25px] md:py-[50px] mx-auto justify-self-center"  
             id='hero'
         >
 
@@ -23,24 +23,25 @@ export default function Hero() {
 
             <h1 
                 id='hero-heading' 
-                className="md:text-[24px] max-md:text-center md:text-start max-md:mbs-[26.5px] text-gray-600"
+                className="text-[16px] md:text-[24px] max-md:text-center md:text-start max-md:mbs-[26.5px] text-gray-600"
             >
-                Hi, I am Munawar Ali
+                Hi, I am <b className="text-[17px] md:text-[25px] text-black">Munawar Ali</b>
             </h1>
 
             <p 
                 id='hero-para' 
                 className="md:text-[24px] max-md:text-center md:text-start max-md:mbs-[15px] text-gray-600"
             >
-                I am a student at Farook College, Calicut.
+                A web designer, developer, and student at Farook College, Calicut.
             </p>
 
             <p 
                 id='hero-para-2' 
-                className="md:text-[24px] w-[360px] md:w-[657px] max-md:text-center md:text-start max-md:mbs-[20px] text-gray-600"
+                className="text-[15px] md:text-[24px] w-[360px] md:w-[657px] max-md:text-center md:text-start max-md:mbs-[12px] text-gray-600"
             >
-                I design websites, make websites, and give web related services.
-                I have experiences in css, javascript, and some other related subjects.
+                With hands-on experience in <b className="text-black">CSS</b>, <b className="text-black">JavaScript</b>, and <b className="text-black">modern web technologies</b>. 
+                I build fast, mobile-ready websites and offer ongoing web support to help businesses look sharp 
+                and convert more visitors.
             </p>
 
             <div 

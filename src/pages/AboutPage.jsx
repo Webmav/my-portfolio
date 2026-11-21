@@ -12,9 +12,8 @@ export default function AboutPage() {
                     <div className="max-md:flex max-md:flex-col max-md:items-center max-md:my-[32px] max-md:gap-[12px]">
                         <h1 className="font-bold text-[16px] md:text-[24px] text-indigo-700">ABOUT ME</h1>
 
-                        <h2 className="font-bold text-[24px] md:text-[56px] text-black leading-[25px] md:leading-[64px] max-md:text-center">I build websites that bring businesses 
-                            more
-                            customers.
+                        <h2 className="font-bold text-[24px] md:text-[56px] text-black leading-[25px] md:leading-[64px] max-md:text-center">
+                            I build websites that bring businesses more customers.
                         </h2>
 
                         <h3 className="text-[12px] md:text-[18px] text-gray-500 font-normal max-md:text-center">Munawar Ali, web designer and developer in Kerala.</h3>
