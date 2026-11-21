@@ -33,31 +33,56 @@ export default function Navbar() {
                 <NavLink 
                     className={LinkClass}
                     to="/">
-                    <li className='md:text-[20px] md:text-white active:text-gray-300'>Home</li>
+                    <li 
+                        className='md:text-[20px] md:text-white active:text-gray-300' 
+                        onClick={menuButton}
+                    >
+                            Home
+                    </li>
                 </NavLink>
 
                 <NavLink 
                     className={LinkClass}
                     to="/about">
-                    <li className='md:text-[20px] md:text-white active:text-gray-300'>About</li>
+                    <li 
+                        className='md:text-[20px] md:text-white active:text-gray-300' 
+                        onClick={menuButton}
+                    >
+                            About
+                    </li>
                 </NavLink>
 
                 <NavLink 
                     className={LinkClass}
                     to="/services">
-                    <li className='md:text-[20px] md:text-white active:text-gray-300'>Services</li>
+                    <li 
+                        className='md:text-[20px] md:text-white active:text-gray-300' 
+                        onClick={menuButton}
+                    >
+                            Services
+                    </li>
                 </NavLink>
 
                 <NavLink 
                     className={LinkClass}
                     to="/projects">
-                    <li className='md:text-[20px] md:text-white active:text-gray-300'>Projects</li>
+                    <li 
+                        className='md:text-[20px] md:text-white active:text-gray-300' 
+                        onClick={menuButton}
+                    >
+                            Projects
+                    </li>
                 </NavLink>
 
                 <NavLink 
                     className={LinkClass}
                     to="/contact">
-                    <li className='md:text-[20px] md:text-white active:text-gray-300'>Contact</li>
+                    <li 
+                        className='md:text-[20px] md:text-white active:text-gray-300' 
+                        onClick={menuButton}
+                    >
+                            Contact
+                    </li>
                 </NavLink>
             </ul>
 
