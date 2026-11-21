@@ -23,14 +23,15 @@ export default function AboutPage() {
 
                 <div className="flex flex-col my-[65px] gap-[25px]">
                     <h3 className="text-[20px] ">
-                        I got into web design in high school through a competition, and I've been teaching myself ever since. 
-                        Along the way I noticed that many businesses in Kerala don't have a proper website. They lose customers 
-                        online and their potential goes to waste, and I wanted to help fix that.
+                        I'm a student at Farook College, Calicut, and I've been building websites since a school competition first got me hooked. 
+                        I taught myself CSS and JavaScript, and I noticed that many businesses in Kerala still don't have a proper website, so they
+                        lose customers online.
                     </h3>
-                    
+
                     <h3 className="text-[20px] ">
-                        Kerala is my home, and it deserves better websites. Message me on WhatsApp, see a free mockup first, 
-                        and I'll handle everything else: domain, hosting and a simple one-time build.
+                        Kerala is my home, and I want to help its shops and restaurants grow. My sites let customers order without calling, and your staff can 
+                        manage those orders easily. I work mostly over WhatsApp and start with a free mockup, then handle your domain, hosting and a simple one-time 
+                        build at a fair price.
                     </h3>
                 </div>
 
