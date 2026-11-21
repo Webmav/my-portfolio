@@ -22,8 +22,16 @@ export default function AboutPage() {
                 </div>
 
                 <div className="flex flex-col my-[65px] gap-[25px]">
-                    <h3 className="text-[20px] ">[YOUR STORY: why you started building websites for local businesses]</h3>
-                    <h3 className="text-[20px] ">[YOUR STORY: why Kerala, and how you work with shop owners]</h3>
+                    <h3 className="text-[20px] ">
+                        I got into web design in high school through a competition, and I've been teaching myself ever since. 
+                        Along the way I noticed that many businesses in Kerala don't have a proper website. They lose customers 
+                        online and their potential goes to waste, and I wanted to help fix that.
+                    </h3>
+                    
+                    <h3 className="text-[20px] ">
+                        Kerala is my home, and it deserves better websites. Message me on WhatsApp, see a free mockup first, 
+                        and I'll handle everything else: domain, hosting and a simple one-time build.
+                    </h3>
                 </div>
 
                 <div className="flex md:gap-[25px] my-[65px]">
